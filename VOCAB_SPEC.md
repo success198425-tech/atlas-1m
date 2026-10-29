@@ -1,5 +1,9 @@
 # Atlas Vocabulary Specification v0.1
 
+## Vocabulary Size
+
+2048
+
 ## Reserved Tokens
 
 0 = <PAD>
@@ -7,16 +11,28 @@
 2 = <BOS>
 3 = <EOS>
 
-## Vocabulary Size
-
-2048
-
 ## Tokenization Rules
 
-- Convert text to lowercase
-- Remove punctuation
-- Split by whitespace
-- Unknown words become <UNK>
+1. Convert text to lowercase
+2. Remove punctuation
+3. Split by whitespace
+4. Keep engineering terms intact
+5. Unknown words → <UNK>
+
+## Engineering Terms
+
+Examples:
+
+plc
+scada
+servo
+bearing
+vibration
+temperature
+current
+alarm
+fault
+maintenance
 
 ## Example
 
@@ -32,11 +48,4 @@ increased
 
 Output IDs:
 
-[4, 5, 6]
-
-## Future Support
-
-- Manufacturing terminology
-- PLC terminology
-- SCADA terminology
-- RCA terminology
+[4,5,6]

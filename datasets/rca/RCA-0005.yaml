@@ -1,0 +1,23 @@
+id: RCA-0005
+
+problem:
+  Repeated equipment trips
+
+observation:
+  Current spikes during startup
+  No mechanical abnormalities detected
+
+hypothesis:
+  Incorrect motor parameter settings
+
+action:
+  VFD parameters verified and corrected
+
+result:
+  Stable operation restored
+
+lesson:
+  Verify drive parameters before replacing hardware.
+
+confidence:
+  Medium

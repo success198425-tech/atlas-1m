@@ -1,0 +1,23 @@
+id: RCA-0003
+
+problem:
+  Conveyor stopped unexpectedly
+
+observation:
+  Motor current increased rapidly
+  Overload alarm activated
+
+hypothesis:
+  Mechanical blockage
+
+action:
+  Conveyor inspected
+
+result:
+  Foreign object found in conveyor path
+
+lesson:
+  Verify mechanical obstruction before replacing electrical components.
+
+confidence:
+  High

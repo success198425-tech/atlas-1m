@@ -1,0 +1,22 @@
+id: SCADA-0001
+
+problem:
+  Missing production data
+
+observation:
+  SCADA historian stopped logging
+
+hypothesis:
+  Historian service stopped
+
+action:
+  Service restarted
+
+result:
+  Data collection restored
+
+lesson:
+  Monitor historian service health.
+
+confidence:
+  High

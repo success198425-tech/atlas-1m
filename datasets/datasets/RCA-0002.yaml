@@ -1,0 +1,23 @@
+id: RCA-0002
+
+problem:
+  PLC communication lost
+
+observation:
+  Multiple timeout alarms
+  Intermittent HMI connection
+
+hypothesis:
+  Network switch failure
+
+action:
+  Switch replaced
+
+result:
+  Stable communication restored
+
+lesson:
+  Check network infrastructure before replacing PLC hardware.
+
+confidence:
+  High

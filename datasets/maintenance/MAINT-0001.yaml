@@ -1,0 +1,19 @@
+id: MAINT-0001
+
+equipment:
+  Conveyor Motor
+
+maintenance_type:
+  Preventive
+
+action:
+  Bearing lubrication
+
+result:
+  Normal vibration levels maintained
+
+lesson:
+  Regular lubrication extends bearing life.
+
+confidence:
+  High

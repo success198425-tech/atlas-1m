@@ -1,0 +1,22 @@
+id: PLC-0001
+
+problem:
+  PLC communication timeout
+
+observation:
+  HMI disconnected intermittently
+
+hypothesis:
+  Network switch degradation
+
+action:
+  Network switch replaced
+
+result:
+  Communication stabilized
+
+lesson:
+  Check network devices before replacing PLC hardware.
+
+confidence:
+  High

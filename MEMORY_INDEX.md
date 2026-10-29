@@ -25,6 +25,8 @@ Keywords:
 - vibration
 - current
 - temperature
+- Motor
+- Wear
 
 ---
 

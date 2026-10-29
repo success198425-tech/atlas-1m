@@ -1,0 +1,23 @@
+id: RCA-0004
+
+problem:
+  Motor temperature alarm triggered
+
+observation:
+  Temperature exceeded operating limit
+  Cooling fan not rotating
+
+hypothesis:
+  Cooling fan failure
+
+action:
+  Cooling fan replaced
+
+result:
+  Motor temperature returned to normal
+
+lesson:
+  Cooling fan inspection should be part of preventive maintenance.
+
+confidence:
+  High

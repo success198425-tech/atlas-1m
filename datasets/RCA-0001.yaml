@@ -1,0 +1,23 @@
+id: RCA-0001
+
+problem:
+  Motor vibration increased
+
+observation:
+  Motor current increased by 20%
+  Temperature increased by 7°C
+
+hypothesis:
+  Bearing degradation
+
+action:
+  Bearing inspection performed
+
+result:
+  Inner race wear confirmed
+
+lesson:
+  Rising vibration and current together may indicate bearing wear.
+
+confidence:
+  High

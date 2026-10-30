@@ -1,5 +1,3 @@
-use serde::{Deserialize, Serialize};
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Memory {
     pub id: String,
@@ -18,4 +16,7 @@ pub struct Memory {
     pub lesson: String,
 
     pub confidence: u32,
+
+    pub related_memories: Vec<String>,
+    pub references: Vec<String>,
 }

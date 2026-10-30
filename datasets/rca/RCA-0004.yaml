@@ -1,23 +1,46 @@
 id: RCA-0004
 
+title: Unexpected Equipment Shutdown Due to Sensor Failure
+
+category: RCA
+
+tags:
+  - sensor
+  - shutdown
+  - equipment
+  - fault
+
 problem:
-  Motor temperature alarm triggered
+  Equipment stopped unexpectedly during operation.
 
 observation:
-  Temperature exceeded operating limit
-  Cooling fan not rotating
+  - Equipment shutdown alarm activated.
+  - Sensor signal remained fixed despite changing conditions.
+  - No mechanical abnormalities detected.
 
 hypothesis:
-  Cooling fan failure
+  Faulty sensor provided incorrect process feedback.
 
 action:
-  Cooling fan replaced
+  Sensor functionality verified and replaced.
 
 result:
-  Motor temperature returned to normal
+  Equipment resumed normal operation after sensor replacement.
+
+root_cause:
+  Failed sensor generated invalid feedback, triggering protective shutdown logic.
+
+solution:
+  Replace faulty sensor and verify calibration settings.
 
 lesson:
-  Cooling fan inspection should be part of preventive maintenance.
+  Verify sensor health before investigating complex mechanical failures.
 
-confidence:
-  High
+confidence: 90
+
+related_memories:
+  - PLC-0001
+  - SCADA-0001
+
+references:
+  - Maintenance inspection report

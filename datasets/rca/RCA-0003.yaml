@@ -1,23 +1,45 @@
 id: RCA-0003
 
+title: Conveyor Unexpected Stop Due to Mechanical Blockage
+
+category: RCA
+
+tags:
+  - conveyor
+  - blockage
+  - motor
+  - overload
+
 problem:
-  Conveyor stopped unexpectedly
+  Conveyor stopped unexpectedly.
 
 observation:
-  Motor current increased rapidly
-  Overload alarm activated
+  - Motor current increased rapidly.
+  - Overload alarm activated.
 
 hypothesis:
-  Mechanical blockage
+  Mechanical blockage.
 
 action:
-  Conveyor inspected
+  Conveyor inspected.
 
 result:
-  Foreign object found in conveyor path
+  Foreign object found in conveyor path.
+
+root_cause:
+  Foreign object obstructed conveyor movement, causing motor overload.
+
+solution:
+  Remove obstruction and inspect conveyor pathway.
 
 lesson:
   Verify mechanical obstruction before replacing electrical components.
 
-confidence:
-  High
+confidence: 90
+
+related_memories:
+  - PLC-0001
+  - SCADA-0001
+
+references:
+  - Maintenance inspection record

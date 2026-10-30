@@ -1,23 +1,47 @@
 id: RCA-0005
 
+title: Equipment Trip Caused by Motor Overload
+
+category: RCA
+
+tags:
+  - motor
+  - overload
+  - trip
+  - production
+
 problem:
-  Repeated equipment trips
+  Equipment tripped repeatedly during normal production.
 
 observation:
-  Current spikes during startup
-  No mechanical abnormalities detected
+  - Motor current exceeded normal operating range.
+  - Overload protection activated.
+  - Temperature increased before trip event.
 
 hypothesis:
-  Incorrect motor parameter settings
+  Excessive mechanical load caused motor overload.
 
 action:
-  VFD parameters verified and corrected
+  Equipment inspected and load conditions reviewed.
 
 result:
-  Stable operation restored
+  Mechanical resistance was identified and removed.
+
+root_cause:
+  Excessive mechanical load caused the motor to draw high current and activate overload protection.
+
+solution:
+  Remove source of mechanical resistance and verify motor loading conditions.
 
 lesson:
-  Verify drive parameters before replacing hardware.
+  Investigate mechanical loading before replacing electrical components.
 
-confidence:
-  Medium
+confidence: 95
+
+related_memories:
+  - MAINT-0001
+  - SCADA-0001
+  - PLC-0001
+
+references:
+  - Equipment trip analysis report
